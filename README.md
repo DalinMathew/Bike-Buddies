@@ -1,5 +1,6 @@
-#Bike Buddies
-#Abstract
+**#Bike Buddies**
+**#Abstract**
+
 "Bike Buddies" is an online platform designed to facilitate seamless bike booking 
 experiences for both riders and customers. With a user-friendly interface and robust 
 functionalities, Bike Buddies aims to revolutionize bike transportation by offering convenient 
