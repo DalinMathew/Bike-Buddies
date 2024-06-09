@@ -1,4 +1,5 @@
-**#Bike Buddies**
+**##Bike Buddies**
+
 **#Abstract**
 
 "Bike Buddies" is an online platform designed to facilitate seamless bike booking 
@@ -23,21 +24,36 @@ prioritizing user convenience, safety, and satisfaction. With its user-friendly 
 features, Bike Buddies is set to revolutionize the bike rental industry and redefine the way people 
 commute and travel
 
-#dotenv
+**#dotenv**
+
 create .env file in the main folder and add the details according to your local system
+
+
 MONGODB_ATLAS_URI = "mongodb://localhost:27017/BikeBooking"
+
 SECRET_KEY="asd123"
+
 SECRET_KEY1="dalin123"
 
 i used MongoDbCompass , just edit thr URL
 
-#Run
+**#Run**
+
 First install all node modules and other required modules using 
-**npm init -y or use force
-npm i example_module_name**
+
+**npm init -y or use force**
+
+**npm i example_module_name**
+
 First in terminal select the main Folder, and give command 
+
 **npx nodemon server/server**
+
 Then open ClientBackup folder in Terminal, then give Command
+
 **npm start**
+
+
+
 
 
