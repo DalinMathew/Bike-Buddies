@@ -1,0 +1,64 @@
+
+.my-bookings {
+    margin-top: 20px;
+  }
+  
+  .my-bookings h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .booking-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .booking-details {
+    display: flex;
+  }
+  
+  .booking-image {
+    flex: 0 0 150px;
+  }
+  
+  .booking-image img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .booking-info {
+    padding: 20px;
+  }
+  
+  .rider-name,
+  .rider-email,
+  .rider-mobile {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .pickup-location,
+  .trip-date,
+  .booking-status,
+  .trip-duration {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .booking-details {
+      flex-direction: column;
+    }
+  
+    .booking-image {
+      flex: none;
+    }
+  }
+  

@@ -1,0 +1,8 @@
+.ant-form-item label { /* Target form item labels */
+  font-weight: normal !important; /* Set normal weight, important for overriding */
+}
+
+.ant-form-item-control .ant-input:not([type="text"]), /* Target input placeholders (except text type) */
+.ant-form-item-control .ant-input[type="text"]::placeholder { /* Target text input placeholders only */
+  font-weight: bolder; /* Make them bold */
+}

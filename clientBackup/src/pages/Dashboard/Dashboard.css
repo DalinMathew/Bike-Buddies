@@ -1,0 +1,138 @@
+/* .dashboard-container {
+    padding: 20px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.detail-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.detail-section h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.bike-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+} */
+
+
+
+.dashboard-container {
+    padding: 20px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.detail-section {
+    flex: 1 1 45%; /* Allow sections to wrap and take 45% of the container */
+    margin: 10px; /* Adjust margin for better spacing */
+}
+
+.detail-section h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.bike-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 1200px) {
+    .detail-section {
+        flex: 1 1 48%; /* Adjust for slightly smaller screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .detail-section {
+        flex: 1 1 100%; /* Stack sections on top of each other */
+        margin: 5px 0; /* Reduce margin for better fit */
+    }
+
+    .details {
+        justify-content: center; /* Center details in smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .booking-card {
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .dashboard-container {
+        padding: 10px; /* Reduce container padding for extra small screens */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Adjust font size for heading */
+        margin-bottom: 15px; /* Adjust margin for heading */
+    }
+
+    .booking-card {
+        padding: 10px; /* Reduce padding further */
+    }
+
+    .detail-section {
+        margin: 5px 0; /* Further reduce margin */
+    }
+}

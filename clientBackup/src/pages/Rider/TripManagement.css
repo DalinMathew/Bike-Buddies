@@ -1,0 +1,54 @@
+.trip-management {
+    margin: 20px;
+  }
+  
+  .trip-management h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-history-heading {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-history-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .booking-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .booking-status,
+  .trip-status,
+  .trip-date,
+  .trip-duration,
+  .bike-name {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .bike-details {
+    margin-top: 10px;
+  }
+  
+  .complete-trip-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .complete-trip-button:hover {
+    background-color: #45a049;
+  }
+  
