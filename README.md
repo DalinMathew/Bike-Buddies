@@ -39,7 +39,7 @@ i used MongoDbCompass , just edit thr URL
 
 **#Run**
 
-First install all node modules and other required modules using 
+First install all node modules in main folder and ClientBackup and other required modules using 
 
 **npm init -y or use force**
 
